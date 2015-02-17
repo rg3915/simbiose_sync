@@ -2,6 +2,8 @@
 Sync between Cassandra and ElasticSearch DBs
 
 # How to use
+- Create a new VirtualEnv (recommended)
+- Install all requirements:  ```pip -r requirements.txt```
 - Install Cassandra and ElasticSearch (this readme not show you how to intall them :) )
 - Create a new keyspace, named demo:
 ```CREATE KEYSPACE demo WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 };```
